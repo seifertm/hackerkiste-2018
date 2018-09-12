@@ -1,8 +1,10 @@
 <template>
   <svg :width="width" :height="height">
     <svg v-for="(point, index) in data" :key="index" :width="barWidth" :x="index*(barWidth + gapWidth)">
-      <rect :y="plotAreaHeight - (point.value/maxValue)*plotAreaHeight" width="100%" :height="point.value/maxValue*plotAreaHeight" />
-      <text x="50%" :y="plotAreaHeight - (point.value/maxValue)*plotAreaHeight-fontSize/2" alignment-baseline="middle" text-anchor="middle">{{point.value}}</text>
+      <svg :height="plotAreaHeight">
+        <rect :y="100 - 100*(point.value/maxValue) + '%'" width="100%" :height="100*point.value/maxValue + '%'" />
+        <text x="50%" :y="100 - 100*(point.value/maxValue) + '%'" alignment-baseline="middle" text-anchor="middle">{{point.value}}</text>
+      </svg>
       <text x="50%" :y="labelBaselineY" alignment-baseline="middle" text-anchor="middle">{{point.label}}</text>
     </svg>
   </svg>
