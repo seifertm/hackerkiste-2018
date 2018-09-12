@@ -3,11 +3,7 @@
     <div class="eg-slideshow">
       <slide>
         <h3>Why does image optimization matter?</h3>
-        <svg width=800 height=400>
-            <g v-for="(value, property, index) in pageSize">
-              <rect :x="index*110" :y="400-(value/1517.7)*400" width="100" :height="value/1517.7*400" />
-            </g>
-        </svg>
+        <bar-chart width=800 height=400 :data="pageSize"></bar-chart>
         <p>Delays cause rendering delays -> users bounce</p>
         <p>A significant amount of website content consists of images</p>
       </slide>
@@ -38,8 +34,11 @@
 <script>
 import { Slideshow } from 'eagle.js'
 
+import BarChart from './components/BarChart.vue'
+
 export default {
   name: 'app',
+  components: {BarChart},
   mixins: [Slideshow],
   props: {
     mouseNavigation: {default: false}
