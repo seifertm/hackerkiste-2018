@@ -3,7 +3,7 @@
     <div class="eg-slideshow">
       <slide>
         <h3>Why does image optimization matter?</h3>
-        <bar-chart width=800 height=400 :data="pageSize"></bar-chart>
+        <bar-chart width=800 height=400 :data="pageSize" font-size="28.76"></bar-chart>
         <p>Delays cause rendering delays -> users bounce</p>
         <p>A significant amount of website content consists of images</p>
       </slide>
