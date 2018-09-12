@@ -46,7 +46,6 @@ export default {
   data: function() {
     return {
       pageSize: [
-        {label: "other", value: 0.5},
         {label: "html", value: 28.5},
         {label: "css", value: 50.0},
         {label: "fonts", value: 96.9},
