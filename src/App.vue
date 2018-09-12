@@ -46,13 +46,12 @@ export default {
   data: function() {
     return {
       pageSize: [
-        {label: "total", value: 1517.7},
+        {label: "other", value: 0.5},
+        {label: "html", value: 28.5},
         {label: "css", value: 50.0},
         {label: "fonts", value: 96.9},
-        {label: "html", value: 28.5},
-        {label: "images", value: 653.1},
         {label: "javascript", value: 403.3},
-        {label: "other", value: 0.5}
+        {label: "images", value: 653.1},
       ]
     }
   }
