@@ -1,9 +1,9 @@
 <template>
   <svg :width="width" :height="height">
-    <g v-for="(point, index) in data" :key="index" >
-      <rect :x="index*(barWidth + gapWidth)" :y="plotAreaHeight - (point.value/maxValue)*plotAreaHeight" :width="barWidth" :height="point.value/maxValue*plotAreaHeight" />
-      <text :x="index*(barWidth + gapWidth)" :y="labelBaselineY">{{point.label}}</text>
-    </g>
+    <svg v-for="(point, index) in data" :key="index" :width="barWidth" :x="index*(barWidth + gapWidth)">
+      <rect :y="plotAreaHeight - (point.value/maxValue)*plotAreaHeight" width="100%" :height="point.value/maxValue*plotAreaHeight" />
+      <text :y="labelBaselineY">{{point.label}}</text>
+    </svg>
   </svg>
 </template>
 
