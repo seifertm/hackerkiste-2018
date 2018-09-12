@@ -2,7 +2,7 @@
   <svg :width="width" :height="height">
     <svg v-for="(point, index) in data" :key="index" :width="barWidth" :x="index*(barWidth + gapWidth)">
       <rect :y="plotAreaHeight - (point.value/maxValue)*plotAreaHeight" width="100%" :height="point.value/maxValue*plotAreaHeight" />
-      <text :y="labelBaselineY">{{point.label}}</text>
+      <text x="50%" :y="labelBaselineY" alignment-baseline="middle" text-anchor="middle">{{point.label}}</text>
     </svg>
   </svg>
 </template>
