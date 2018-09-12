@@ -35,7 +35,10 @@ import { Slideshow } from 'eagle.js'
 
 export default {
   name: 'app',
-  mixins: [Slideshow]
+  mixins: [Slideshow],
+  props: {
+    mouseNavigation: {default: false}
+  }
 }
 </script>
 
