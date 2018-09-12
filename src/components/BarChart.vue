@@ -1,7 +1,7 @@
 <template>
   <svg :width="width" :height="height">
     <g v-for="(point, index) in data" :key="index" >
-      <rect :x="index*(barWidth + gap)" :y="400-(point.value/maxValue)*400" :width="barWidth" :height="point.value/maxValue*400" />
+      <rect :x="index*(barWidth + gap)" :y="height-(point.value/maxValue)*height" :width="barWidth" :height="point.value/maxValue*height" />
     </g>
   </svg>
 </template>
