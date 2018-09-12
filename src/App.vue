@@ -3,6 +3,11 @@
     <div class="eg-slideshow">
       <slide>
         <h3>Why does image optimization matter?</h3>
+        <svg width=800 height=400>
+            <g v-for="(value, property, index) in pageSize">
+              <rect :x="index*110" :y="400-(value/1517.7)*400" width="100" :height="value/1517.7*400" />
+            </g>
+        </svg>
         <p>Delays cause rendering delays -> users bounce</p>
         <p>A significant amount of website content consists of images</p>
       </slide>
@@ -38,6 +43,19 @@ export default {
   mixins: [Slideshow],
   props: {
     mouseNavigation: {default: false}
+  },
+  data: function() {
+    return {
+      pageSize: {
+        total: 1517.7,
+        css: 50.0,
+        fonts: 96.9,
+        html: 28.5,
+        images: 653.1,
+        javascript: 403.3,
+        other: 0.5
+      }
+    }
   }
 }
 </script>
