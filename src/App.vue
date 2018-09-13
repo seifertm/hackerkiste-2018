@@ -55,6 +55,14 @@
           <figcaption>MP4 (57 KiB)</figcaption>
         </figure>
       </slide>
+      <slide>
+        <p>Use image placeholders</p>
+        <ul>
+          <li>Create low-quality images from the actual image (e.g. by blurring)</li>
+          <li>Create SVG placeholders from the original image (e.g. https://github.com/technopagan/sqip)</li>
+          <li>Create a "skeleton screen" using colored or grey placeholders</li>
+        </ul>
+      </slide>
     </div>
   </div>
 </template>
