@@ -72,6 +72,14 @@
         </figure>
       </slide>
       <slide>
+        <figure>
+          <picture>
+            <img src="./assets/logo-hackerkiste-svgo.svg">
+          </picture>
+          <figcaption>SVG minified by <a href="https://github.com/svg/svgo">SVGO</a> (5.4 KiB -> 4.1 KiB 24.5%) (from https://2018.hackerkiste.de)</figcaption>
+        </figure>
+      </slide>
+      <slide>
         <p>Use image placeholders</p>
         <ul>
           <li>Create low-quality images from the actual image (e.g. by blurring)</li>
