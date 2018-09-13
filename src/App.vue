@@ -87,6 +87,10 @@
           <li>Create a "skeleton screen" using colored or grey placeholders</li>
         </ul>
       </slide>
+      <slide>
+        <p>Lazy loading of offscreen content</p>
+        <p>Use <a href="https://github.com/aFarkas/lazysizes">lazysizes</a> or a custom built solution based on the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"> Intersection Observer API</a></p>
+      </slide>
     </div>
   </div>
 </template>
