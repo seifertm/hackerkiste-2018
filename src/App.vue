@@ -45,12 +45,18 @@
         <p v-if="parentWindow">Designed to be conformant to HEIF</p>
         <p v-if="parentWindow">AV1 is supported in Chrome >=70 and Firefox Nightly.</p>
         <p v-if="parentWindow">=> AVIF support expected to come</p>
-
         <footer>
           <ol>
             <li><a href="https://aomediacodec.github.io/av1-avif/">Specification</a>, <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1443863">Firefox support</a></li>
           </ol>
         </footer>
+      </slide>
+      <slide>
+        <figure>
+          <picture>
+            <img src="./assets/2018-09-06 caniuse.com - heif.png">
+          </picture>
+        </figure>
       </slide>
       <slide>
         <p>Searching for that bug that no one else managed to find</p>
