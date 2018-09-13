@@ -15,6 +15,34 @@
         <p>PageSpeed Insights</p>
       </slide>
       <slide>
+        <figure>
+          <picture>
+            <img src="./assets/antilope.png">
+          </picture>
+          <figcaption>PNG (15.6 MiB)</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <picture>
+            <img src="./assets/antilope-cjpeg.jpeg">
+          </picture>
+          <figcaption>JPEG (1.3 MiB)</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <picture>
+            <img src="./assets/antilope.webp">
+          </picture>
+          <figcaption>WebP (672 KiB)</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <p>HEIF (1.1 MiB)</p>
+        <p>BPG (Segfault)</p>
+      </slide>
+      <slide>
         <p>Searching for that bug that no one else managed to find</p>
         <figure>
           <picture>
@@ -45,6 +73,7 @@ export default {
   },
   data: function() {
     return {
+      baseUrl: process.env.BASE_URL,
       pageSize: [
         {label: "html", value: 28.5},
         {label: "css", value: 50.0},
