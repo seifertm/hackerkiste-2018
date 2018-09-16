@@ -109,8 +109,16 @@
         </figure>
       </slide>
       <slide>
+        <figure>
+          <picture>
+            <img src="./assets/above-the-fold.png">
+          </picture>
+          <figcaption>Above and below the fold content (from the <a href="http://www.newzapp.co.uk/blog/email-marketing/the-fold-and-email-marketing/">newzapp.co.uk</a>)</figcaption>
+        </figure>
+      </slide>
+      <slide>
         <p>Lazy loading of offscreen content</p>
-        <p>Use <a href="https://github.com/aFarkas/lazysizes">lazysizes</a> or a custom built solution based on the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"> Intersection Observer API</a></p>
+        <p>Use <a href="https://github.com/aFarkas/lazysizes">lazySizes</a> or a custom built solution based on the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"> Intersection Observer API</a></p>
       </slide>
     </div>
   </div>
