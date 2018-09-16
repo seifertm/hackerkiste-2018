@@ -120,6 +120,10 @@
         <p>Lazy loading of offscreen content</p>
         <p>Use <a href="https://github.com/aFarkas/lazysizes">lazySizes</a> or a custom built solution based on the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"> Intersection Observer API</a></p>
       </slide>
+      <slide>
+        <p>Thank you!</p>
+        <p>Questions!</p>
+      </slide>
     </div>
   </div>
 </template>
