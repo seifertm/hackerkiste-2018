@@ -84,8 +84,15 @@
         <ul>
           <li>Create low-quality images from the actual image (e.g. by blurring)</li>
           <li>Create SVG placeholders from the original image (e.g. https://github.com/technopagan/sqip)</li>
-          <li>Create a "skeleton screen" using colored or grey placeholders</li>
         </ul>
+      </slide>
+      <slide>
+        <figure>
+          <picture>
+            <img src="./assets/skeleton-screen.png">
+          </picture>
+          <figcaption>Skeleton screen (from <a href="https://css-tricks.com/building-skeleton-screens-css-custom-properties/">CSS Tricks</a>)</figcaption>
+        </figure>
       </slide>
       <slide>
         <p>Lazy loading of offscreen content</p>
