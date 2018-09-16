@@ -83,7 +83,6 @@
         <p>Use image placeholders</p>
         <ul>
           <li>Create low-quality images from the actual image (e.g. by blurring)</li>
-          <li>Create SVG placeholders from the original image (e.g. https://github.com/technopagan/sqip)</li>
         </ul>
       </slide>
       <slide>
@@ -92,6 +91,21 @@
             <img src="./assets/skeleton-screen.png">
           </picture>
           <figcaption>Skeleton screen (from <a href="https://css-tricks.com/building-skeleton-screens-css-custom-properties/">CSS Tricks</a>)</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <p>Create SVG placeholders (e.g. using <a href="https://github.com/technopagan/sqip">SQIP</a>)</p>
+        <figure>
+          <picture>
+            <img src="./assets/mona lisa.png">
+          </picture>
+          <figcaption>Reference image (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
+        </figure>
+        <figure>
+          <picture>
+            <img src="./assets/primitive.gif">
+          </picture>
+          <figcaption>Approximated SVG (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
         </figure>
       </slide>
       <slide>
