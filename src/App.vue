@@ -22,11 +22,31 @@
         </footer>
       </slide>
       <slide>
-        <h3>Measure, don't guess</h3>
-        <p>webpagetest.org</p>
-        <p>httparchive.org</p>
-        <p>Lighthouse<p>
-        <p>PageSpeed Insights</p>
+        <h3>Measure, don't guess!</h3>
+      </slide>
+      <slide>
+        <figure>
+          <picture>
+            <img src="./assets/2018-09-18 webpagetest.org.png">
+          </picture>
+          <figcaption><a href="https://www.webpagetest.org/">webpagetest.org</a></figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <picture>
+            <img src="./assets/2018-09-18 PageSpeed Insights.png">
+          </picture>
+          <figcaption><a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a></figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <picture>
+            <img src="./assets/2018-09-18 - Lighthouse.png">
+          </picture>
+          <figcaption><a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a></figcaption>
+        </figure>
       </slide>
       <slide>
         <figure>
