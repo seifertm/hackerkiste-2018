@@ -106,16 +106,18 @@
       </slide>
       <slide>
         <p>Searching for that bug that no one else managed to find</p>
-        <figure>
-          <picture>
-            <img src="./assets/dog.gif">
-          </picture>
-          <figcaption>GIF (780 KiB) (by uaiHebert on http://devopsreactions.tumblr.com)</figcaption>
-        </figure>
-        <figure>
-          <video autoplay loop><source src="./assets/dog.mp4" type="video/mp4"></video>
-          <figcaption>MP4 (57 KiB)</figcaption>
-        </figure>
+        <div class="side-by-side">
+          <figure>
+            <picture>
+              <img src="./assets/dog.gif">
+            </picture>
+            <figcaption>GIF (780 KiB) (by uaiHebert on http://devopsreactions.tumblr.com)</figcaption>
+          </figure>
+          <figure>
+            <video autoplay loop><source src="./assets/dog.mp4" type="video/mp4"></video>
+            <figcaption>MP4 (57 KiB)</figcaption>
+          </figure>
+        </div>
       </slide>
       <slide>
         <figure>
@@ -153,18 +155,20 @@
       </slide>
       <slide>
         <p>Create SVG placeholders (e.g. using <a href="https://github.com/technopagan/sqip">SQIP</a>)</p>
-        <figure>
-          <picture>
-            <img src="./assets/mona lisa.png">
-          </picture>
-          <figcaption>Reference image (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
-        </figure>
-        <figure>
-          <picture>
-            <img src="./assets/primitive.gif">
-          </picture>
-          <figcaption>Approximated SVG (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
-        </figure>
+        <div class="side-by-side">
+          <figure>
+            <picture>
+              <img src="./assets/mona lisa.png">
+            </picture>
+            <figcaption>Reference image (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
+          </figure>
+          <figure>
+            <picture>
+              <img src="./assets/primitive.gif">
+            </picture>
+            <figcaption>Approximated SVG (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
+          </figure>
+        </div>
       </slide>
       <slide>
         <h1>Thank you!</h1>
@@ -215,6 +219,14 @@ export default {
   max-width: 80%;
   max-height: 100%;
   margin: 1em auto;
+}
+
+.eg-slide-content .side-by-side {
+  display: flex;
+}
+
+.eg-slide-content .side-by-side > *{
+  flex: 1;
 }
 
 .eg-slide-content figure {
