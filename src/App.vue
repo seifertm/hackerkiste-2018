@@ -78,6 +78,14 @@
       <slide>
         <figure>
           <picture>
+            <img src="./assets/2018-09-18 caniuse.com - jpeg xr.png">
+          </picture>
+          <figcaption>JPEG XR</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <picture>
             <img src="./assets/2018-09-06 caniuse.com - heif.png">
           </picture>
           <figcaption>HEIF (1.1 MiB)</figcaption>
