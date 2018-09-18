@@ -2,7 +2,7 @@
   <div id="app" class="eg-theme-gourmet">
     <div class="eg-slideshow">
       <slide>
-        <h3>Why does image optimization matter?</h3>
+        <h1>Why does image optimization matter?</h1>
       </slide>
       <slide>
         <figure>
@@ -22,7 +22,7 @@
         </footer>
       </slide>
       <slide>
-        <h3>Measure, don't guess!</h3>
+        <h1>Measure, don't guess!</h1>
       </slide>
       <slide>
         <figure>
@@ -49,7 +49,7 @@
         </figure>
       </slide>
       <slide>
-        <h3>Choosing a format</h3>
+        <h1>Choosing a format</h1>
       </slide>
       <slide>
         <figure>
@@ -126,7 +126,7 @@
         </figure>
       </slide>
       <slide>
-        <h3>Lazy loading of offscreen content</h3>
+        <h1>Lazy loading of offscreen content</h1>
       </slide>
       <slide>
         <figure>
@@ -140,7 +140,7 @@
         <p>Use <a href="https://github.com/aFarkas/lazysizes">lazySizes</a> or a custom built solution based on the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"> Intersection Observer API</a></p>
       </slide>
       <slide>
-        <h3>Increasing perceived performance</h3>
+        <h1>Increasing perceived performance</h1>
         <p>Create low-quality images from the actual image (e.g. by blurring)</p>
       </slide>
       <slide>
@@ -201,5 +201,8 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.eg-slideshow h1 {
+  font-size: 2.0em;
+}
 </style>
