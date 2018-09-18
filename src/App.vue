@@ -3,9 +3,23 @@
     <div class="eg-slideshow">
       <slide>
         <h3>Why does image optimization matter?</h3>
-        <bar-chart width=800 height=400 :data="pageSize" :font-size=28.76></bar-chart>
-        <p>Delays cause rendering delays -> users bounce</p>
-        <p>A significant amount of website content consists of images</p>
+      </slide>
+      <slide>
+        <figure>
+          <bar-chart width=800 height=400 :data="pageSize" :font-size=28.76></bar-chart>
+          <figcaption>Page weight distribution on 2018-08-15 (data from <a href="https://www.httparchive.org/reports/page-weight">httparchive.org</a></figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <p>Big pages are slower to load</p>
+        <p>Users are more likely to bounce on slower pages <sup>1, 2</sup></p>
+        <p v-if="parentWindow">Google experiment: increase to 30 search results => 0.5s longer load time => 20% decreased traffic</p>
+        <footer>
+          <ol>
+            <li><a href="https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/">Daniel An (2018) – Find out how you stack up to new industry benchmarks for mobile page speed</a></li>
+            <li><a href="https://blog.gigaspaces.com/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/">Nati Shalom (2008) - Amazon found every 100ms of latency cost them 1% in sales</a></li>
+          </ol>
+        </footer>
       </slide>
       <slide>
         <h3>Measure, don't guess</h3>
