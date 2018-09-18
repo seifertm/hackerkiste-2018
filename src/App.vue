@@ -167,8 +167,8 @@
         </figure>
       </slide>
       <slide>
-        <p>Thank you!</p>
-        <p>Questions!</p>
+        <h1>Thank you!</h1>
+        <h1>Questions?</h1>
       </slide>
     </div>
   </div>
@@ -208,7 +208,6 @@ export default {
 
 .eg-slideshow h1 {
   font-size: 2.5em;
-  margin-top: 2.5em;
 }
 
 .eg-slide-content {
