@@ -76,7 +76,15 @@
         </figure>
       </slide>
       <slide>
-        <p>HEIF (1.1 MiB)</p>
+        <figure>
+          <picture>
+            <img src="./assets/2018-09-06 caniuse.com - heif.png">
+          </picture>
+          <figcaption>HEIF (1.1 MiB)</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <h4>Other formats</h4>
         <p>BPG (Segfault)</p>
         <p>AVIF (Spec not finalized) <sup>1</sup></p>
         <p v-if="parentWindow">Designed to be conformant to HEIF</p>
@@ -87,13 +95,6 @@
             <li><a href="https://aomediacodec.github.io/av1-avif/">Specification</a>, <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1443863">Firefox support</a></li>
           </ol>
         </footer>
-      </slide>
-      <slide>
-        <figure>
-          <picture>
-            <img src="./assets/2018-09-06 caniuse.com - heif.png">
-          </picture>
-        </figure>
       </slide>
       <slide>
         <p>Searching for that bug that no one else managed to find</p>
