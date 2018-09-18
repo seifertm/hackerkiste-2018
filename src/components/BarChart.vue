@@ -1,6 +1,6 @@
 <template>
   <svg :width="width" :height="height">
-    <svg v-for="(point, index) in data" :key="index" :width="barWidth" :x="index*(barWidth + gapWidth)">
+    <svg v-for="(point, index) in data" :key="index" :width="100*barWidth + '%'" :x="index*(barWidth + gapWidth/width)*100 + '%'">
       <text x="50%" :y="marginTop - fontSize/2 + plotAreaHeight - plotAreaHeight*(point.value/maxValue)" alignment-baseline="middle" text-anchor="middle">{{point.value}}</text>
       <svg :y="marginTop" :height="plotAreaHeight">
         <rect :y="100 - 100*(point.value/maxValue) + '%'" width="100%" :height="100*point.value/maxValue + '%'" />
@@ -25,7 +25,7 @@ export default {
       return Math.max(...this.data.map(v => v.value))
     },
     barWidth: function() {
-      return (this.width - this.gapCount*this.gapWidth) / this.data.length
+      return (this.width - this.gapCount*this.gapWidth) / this.data.length / this.width
     },
     gapCount: function() {
       return this.data.length - 1
