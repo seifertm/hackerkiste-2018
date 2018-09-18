@@ -49,6 +49,9 @@
         </figure>
       </slide>
       <slide>
+        <h3>Choosing a format</h3>
+      </slide>
+      <slide>
         <figure>
           <picture>
             <img src="./assets/antilope.png">
@@ -114,10 +117,22 @@
         </figure>
       </slide>
       <slide>
-        <p>Use image placeholders</p>
-        <ul>
-          <li>Create low-quality images from the actual image (e.g. by blurring)</li>
-        </ul>
+        <h3>Lazy loading of offscreen content</h3>
+      </slide>
+      <slide>
+        <figure>
+          <picture>
+            <img src="./assets/above-the-fold.png">
+          </picture>
+          <figcaption>Above and below the fold content (from the <a href="http://www.newzapp.co.uk/blog/email-marketing/the-fold-and-email-marketing/">newzapp.co.uk</a>)</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <p>Use <a href="https://github.com/aFarkas/lazysizes">lazySizes</a> or a custom built solution based on the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"> Intersection Observer API</a></p>
+      </slide>
+      <slide>
+        <h3>Increasing perceived performance</h3>
+        <p>Create low-quality images from the actual image (e.g. by blurring)</p>
       </slide>
       <slide>
         <figure>
@@ -141,18 +156,6 @@
           </picture>
           <figcaption>Approximated SVG (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
         </figure>
-      </slide>
-      <slide>
-        <figure>
-          <picture>
-            <img src="./assets/above-the-fold.png">
-          </picture>
-          <figcaption>Above and below the fold content (from the <a href="http://www.newzapp.co.uk/blog/email-marketing/the-fold-and-email-marketing/">newzapp.co.uk</a>)</figcaption>
-        </figure>
-      </slide>
-      <slide>
-        <p>Lazy loading of offscreen content</p>
-        <p>Use <a href="https://github.com/aFarkas/lazysizes">lazySizes</a> or a custom built solution based on the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"> Intersection Observer API</a></p>
       </slide>
       <slide>
         <p>Thank you!</p>
