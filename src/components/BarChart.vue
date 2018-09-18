@@ -1,9 +1,9 @@
 <template>
   <svg :width="width" :height="height">
     <svg v-for="(point, index) in data" :key="index" :width="barWidth" :x="index*(barWidth + gapWidth)">
-      <svg :height="plotAreaHeight">
+      <text x="50%" :y="marginTop - fontSize/2 + plotAreaHeight - plotAreaHeight*(point.value/maxValue)" alignment-baseline="middle" text-anchor="middle">{{point.value}}</text>
+      <svg :y="marginTop" :height="plotAreaHeight">
         <rect :y="100 - 100*(point.value/maxValue) + '%'" width="100%" :height="100*point.value/maxValue + '%'" />
-        <text x="50%" :y="100 - 100*(point.value/maxValue) + '%'" alignment-baseline="middle" text-anchor="middle">{{point.value}}</text>
       </svg>
       <text x="50%" :y="labelBaselineY" alignment-baseline="middle" text-anchor="middle">{{point.label}}</text>
     </svg>
@@ -33,8 +33,11 @@ export default {
     gapWidth: function() {
       return this.fontSize*this.gap
     },
+    marginTop: function() {
+      return 2*this.fontSize
+    },
     plotAreaHeight: function() {
-      return this.height - this.labelHeight
+      return this.height - this.labelHeight - this.marginTop
     },
     labelHeight: function() {
       // 0.5*fontSize is the line spacing below and above the label
