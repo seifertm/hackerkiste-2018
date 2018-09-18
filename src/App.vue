@@ -235,12 +235,24 @@ export default {
 }
 
 .eg-slide-content figure picture {
-  display: inline-block;
+  display: flex;
   position: relative;
+  margin: auto;
+  width: 100%;
+}
+
+.eg-slide-content figure video {
+  max-width: 100%;
+  height: auto;
+}
+
+.eg-slide-content figure figcaption {
+  text-align: center;
 }
 
 .eg-slide-content figure picture img {
   max-width: 100%;
   height: auto;
+  margin: 0 auto;
 }
 </style>
