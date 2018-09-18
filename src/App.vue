@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="eg-theme-gourmet">
+  <div id="app">
     <div class="eg-slideshow">
       <slide>
         <h1>Why does image optimization matter?</h1>
@@ -201,8 +201,35 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+.eg-slideshow {
+  background-color: white;
+}
+
 .eg-slideshow h1 {
-  font-size: 2.0em;
+  font-size: 2.5em;
+  margin-top: 2.5em;
+}
+
+.eg-slide-content {
+  position: relative;
+  max-width: 80%;
+  max-height: 100%;
+  margin: 1em auto;
+}
+
+.eg-slide-content figure {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.eg-slide-content figure picture {
+  display: inline-block;
+  position: relative;
+}
+
+.eg-slide-content figure picture img {
+  max-width: 100%;
+  height: auto;
 }
 </style>
