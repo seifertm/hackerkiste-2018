@@ -65,6 +65,19 @@
       </slide>
       <slide>
         <figure>
+          <img src="./assets/webp vs jpeg - kodak.png">
+          <figcaption>Perfomance of lossy WebP (blue) vs JPEG (red) compression <a href="https://developers.google.com/speed/webp/docs/webp_study">(WebP Compression Study)</a></figcaption>
+        </figure>
+        <p>WebP produces images that are 25&hairsp;% – 34&hairsp;% smaller</p>
+      </slide>
+      <slide>
+        <figure>
+          <img src="./assets/2018-09-20 caniuse.com - webp.png">
+          <figcaption>WebP browser support</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
           <img src="./assets/2018-09-18 caniuse.com - jpeg xr.png">
           <figcaption>JPEG XR</figcaption>
         </figure>
