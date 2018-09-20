@@ -26,25 +26,19 @@
       </slide>
       <slide>
         <figure>
-          <picture>
-            <img src="./assets/2018-09-18 webpagetest.org.png">
-          </picture>
+          <img src="./assets/2018-09-18 webpagetest.org.png">
           <figcaption><a href="https://www.webpagetest.org/">webpagetest.org</a></figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
-          <picture>
-            <img src="./assets/2018-09-18 PageSpeed Insights.png">
-          </picture>
+          <img src="./assets/2018-09-18 PageSpeed Insights.png">
           <figcaption><a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a></figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
-          <picture>
-            <img src="./assets/2018-09-18 - Lighthouse.png">
-          </picture>
+          <img src="./assets/2018-09-18 - Lighthouse.png">
           <figcaption><a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a></figcaption>
         </figure>
       </slide>
@@ -53,41 +47,31 @@
       </slide>
       <slide>
         <figure>
-          <picture>
-            <img src="./assets/antilope.png">
-          </picture>
+          <img src="./assets/antilope.png">
           <figcaption>PNG (15.6 MiB)</figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
-          <picture>
-            <img src="./assets/antilope-cjpeg.jpeg">
-          </picture>
+          <img src="./assets/antilope-cjpeg.jpeg">
           <figcaption>JPEG (1.3 MiB)</figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
-          <picture>
-            <img src="./assets/antilope.webp">
-          </picture>
+          <img src="./assets/antilope.webp">
           <figcaption>WebP (672 KiB)</figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
-          <picture>
-            <img src="./assets/2018-09-18 caniuse.com - jpeg xr.png">
-          </picture>
+          <img src="./assets/2018-09-18 caniuse.com - jpeg xr.png">
           <figcaption>JPEG XR</figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
-          <picture>
-            <img src="./assets/2018-09-06 caniuse.com - heif.png">
-          </picture>
+          <img src="./assets/2018-09-06 caniuse.com - heif.png">
           <figcaption>HEIF (1.1 MiB)</figcaption>
         </figure>
       </slide>
@@ -108,9 +92,7 @@
         <p>Searching for that bug that no one else managed to find</p>
         <div class="side-by-side">
           <figure>
-            <picture>
-              <img src="./assets/dog.gif">
-            </picture>
+            <img src="./assets/dog.gif">
             <figcaption>GIF (780 KiB) (by uaiHebert on http://devopsreactions.tumblr.com)</figcaption>
           </figure>
           <figure>
@@ -121,9 +103,7 @@
       </slide>
       <slide>
         <figure>
-          <picture>
-            <img src="./assets/logo-hackerkiste-svgo.svg">
-          </picture>
+          <img src="./assets/logo-hackerkiste-svgo.svg">
           <figcaption>SVG minified by <a href="https://github.com/svg/svgo">SVGO</a> (5.4 KiB -> 4.1 KiB 24.5%) (from https://2018.hackerkiste.de)</figcaption>
         </figure>
       </slide>
@@ -132,9 +112,7 @@
       </slide>
       <slide>
         <figure>
-          <picture>
-            <img src="./assets/above-the-fold.png">
-          </picture>
+          <img src="./assets/above-the-fold.png">
           <figcaption>Above and below the fold content (from the <a href="http://www.newzapp.co.uk/blog/email-marketing/the-fold-and-email-marketing/">newzapp.co.uk</a>)</figcaption>
         </figure>
       </slide>
@@ -147,9 +125,7 @@
       </slide>
       <slide>
         <figure>
-          <picture>
-            <img src="./assets/skeleton-screen.png">
-          </picture>
+          <img src="./assets/skeleton-screen.png">
           <figcaption>Skeleton screen (from <a href="https://css-tricks.com/building-skeleton-screens-css-custom-properties/">CSS Tricks</a>)</figcaption>
         </figure>
       </slide>
@@ -157,15 +133,11 @@
         <p>Create SVG placeholders (e.g. using <a href="https://github.com/technopagan/sqip">SQIP</a>)</p>
         <div class="side-by-side">
           <figure>
-            <picture>
-              <img src="./assets/mona lisa.png">
-            </picture>
+            <img src="./assets/mona lisa.png">
             <figcaption>Reference image (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
           </figure>
           <figure>
-            <picture>
-              <img src="./assets/primitive.gif">
-            </picture>
+            <img src="./assets/primitive.gif">
             <figcaption>Approximated SVG (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
           </figure>
         </div>
@@ -225,8 +197,9 @@ export default {
   display: flex;
 }
 
-.eg-slide-content .side-by-side > *{
+.eg-slide-content .side-by-side > * {
   flex: 1;
+  margin: 0 1em;
 }
 
 .eg-slide-content figure {
@@ -234,25 +207,16 @@ export default {
   margin: 0;
 }
 
-.eg-slide-content figure picture {
-  display: flex;
-  position: relative;
-  margin: auto;
-  width: 100%;
-}
-
-.eg-slide-content figure video {
+.eg-slide-content figure :not(figcaption) {
   max-width: 100%;
+  width: 100%;
   height: auto;
+  margin: 0 auto;
+  display: block;
 }
 
 .eg-slide-content figure figcaption {
   text-align: center;
 }
 
-.eg-slide-content figure picture img {
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
-}
 </style>
