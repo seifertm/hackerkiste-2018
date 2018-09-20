@@ -209,7 +209,7 @@ export default {
 
 .eg-slide-content figure :not(figcaption) {
   max-width: 100%;
-  width: 100%;
+  width: fit-content;
   height: auto;
   margin: 0 auto;
   display: block;
