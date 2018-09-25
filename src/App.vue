@@ -22,6 +22,26 @@
         </footer>
       </slide>
       <slide>
+        <h1>Choosing the right quality</h1>
+      </slide>
+      <slide>
+        <p>Numerous metrics to assess image similarity:</p>
+        <ul>
+          <li>Structural similarity (SSIM)</li>
+          <li>Peak Signal-to-Noise Ratio (PSNRHVS-M)</li>
+          <li><a href="https://github.com/google/butteraugli">Butteraugli</a></li>
+          <li>…</li>
+        </ul>
+      </slide>
+      <slide>
+        <p>Encoding images based on a target metric</p>
+        <ul>
+          <li><a href="https://github.com/technopagan/cjpeg-dssim">cjpeg-dssim</a> (SSIM)</li>
+          <li><a href="https://github.com/mozilla/mozjpeg">Mozjpeg</a> (PSNRHVS-M)</li>
+          <li><a href="https://github.com/google/guetzli">Guetzli</a> (Butteraugli)</li>
+        </ul>
+      </slide>
+      <slide>
         <h1>Measure, don't guess!</h1>
       </slide>
       <slide>
