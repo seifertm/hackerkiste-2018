@@ -25,6 +25,48 @@
         <h1>Choosing the right quality</h1>
       </slide>
       <slide>
+        <figure>
+          <img src="./assets/antilope-1280x720-q100.jpeg">
+          <figcaption>JPEG with quality 100 (949 KiB)</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <img src="./assets/antilope-1280x720-q85.jpeg">
+          <figcaption>JPEG with quality 85 (161 KiB)</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <img src="./assets/antilope-1280x720-q70.jpeg">
+          <figcaption>JPEG with quality 70 (107 KiB)</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <img src="./assets/antilope-1280x720-q55.jpeg">
+          <figcaption>JPEG with quality 55 (82 KiB)</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <img src="./assets/antilope-1280x720-q40.jpeg">
+          <figcaption>JPEG with quality 40 (65 KiB)</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <img src="./assets/antilope-1280x720-q25.jpeg">
+          <figcaption>JPEG with quality 25 (46 KiB)</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <img src="./assets/antilope-1280x720-q10.jpeg">
+          <figcaption>JPEG with quality 10 (22 KiB)</figcaption>
+        </figure>
+      </slide>
+      <slide>
         <p>Numerous metrics to assess image similarity:</p>
         <ul>
           <li>Structural similarity (SSIM)</li>
@@ -215,13 +257,23 @@ export default {
   background-color: white !important;
 }
 
+@media (min-width: 1280px) {
+  .eg-slideshow .eg-slide .eg-slide-content {
+    width: 1280px !important;
+  }
+}
+@media (min-width: 1920px) {
+  .eg-slideshow .eg-slide .eg-slide-content {
+    width: 1920px !important;
+  }
+}
+
 .eg-slideshow h1 {
   font-size: 2.5em;
 }
 
 .eg-slide-content {
   position: relative;
-  max-width: 80%;
   max-height: 100%;
   margin: 1em auto;
 }
