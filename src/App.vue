@@ -192,7 +192,7 @@ export default {
 
 <style>
 .eg-slideshow {
-  background-color: white;
+  background-color: white !important;
 }
 
 .eg-slideshow h1 {
