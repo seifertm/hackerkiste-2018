@@ -109,24 +109,6 @@
       </slide>
       <slide>
         <figure>
-          <img src="./assets/antilope.png">
-          <figcaption>PNG (15.6 MiB)</figcaption>
-        </figure>
-      </slide>
-      <slide>
-        <figure>
-          <img src="./assets/antilope-cjpeg.jpeg">
-          <figcaption>JPEG (1.3 MiB)</figcaption>
-        </figure>
-      </slide>
-      <slide>
-        <figure>
-          <img src="./assets/antilope.webp">
-          <figcaption>WebP (672 KiB)</figcaption>
-        </figure>
-      </slide>
-      <slide>
-        <figure>
           <img src="./assets/webp vs jpeg - kodak.png">
           <figcaption>Perfomance of lossy WebP (blue) vs JPEG (red) compression <a href="https://developers.google.com/speed/webp/docs/webp_study">(WebP Compression Study)</a></figcaption>
         </figure>
