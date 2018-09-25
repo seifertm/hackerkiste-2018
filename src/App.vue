@@ -147,7 +147,8 @@
       <slide>
         <figure>
           <img src="./assets/2018-09-06 caniuse.com - heif.png">
-          <figcaption>HEIF (1.1 MiB)</figcaption>
+          <figcaption>HEIF</figcaption>
+          <p>HEIF Produces files that are <a href="https://nokiatech.github.io/heif/technical.html#table-4">approx. 28% smaller</a> than JPEG and generally <a href="https://web.archive.org/web/20160928024026/http://people.mozilla.org/~josh/lossy_compressed_image_study_july_2014/">smaller than WebP</a></p>
         </figure>
       </slide>
       <slide>
