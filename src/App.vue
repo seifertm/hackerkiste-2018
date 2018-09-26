@@ -88,7 +88,7 @@
         </ul>
       </slide>
       <slide>
-        <h1>Choosing a format</h1>
+        <h1>Choosing a raster format</h1>
       </slide>
       <slide>
         <h2>JPEG XR</h2>
@@ -156,6 +156,7 @@
         <p v-if="parentWindow">=> AVIF support expected to come</p>
       </slide>
       <slide :steps=2>
+        <h2>Replace GIFs</h2>
         <h4>"Searching for that bug that no one else managed to find"</h4>
         <div class="side-by-side">
           <figure>
@@ -175,6 +176,7 @@
         </figure>
       </slide>
       <slide :steps=2>
+        <h2>Optimize SVGs</h2>
         <div class="side-by-side">
           <figure>
             <img style="background-color: black; padding: 1em; margin: 0 1em;" src="./assets/logo-hackerkiste.svg">
@@ -185,6 +187,13 @@
             <figcaption>SVG minified by <a href="https://github.com/svg/svgo">SVGO</a> (4.1 KiB; 24.5% smaller)</figcaption>
           </figure>
         </div>
+      </slide>
+      <slide>
+        <h2>Different image sizes for responsive layouts</h2>
+        <eg-code-block lang="html">&lt;img srcset="mobile.jpg   480w,
+               tablet.jpg   720w,
+               desktop.jpg 1080w"&gt;
+        </eg-code-block>
       </slide>
       <slide>
         <h1>Lazy loading of offscreen content</h1>
@@ -294,7 +303,15 @@ export default {
 }
 
 .eg-slideshow h1 {
-  font-size: 2.5em;
+  font-size: 3em !important;
+}
+
+.eg-slideshow h2 {
+  font-size: 2em;
+}
+
+.eg-slideshow .eg-code-block {
+  font-size: 1em !important;
 }
 
 h4 {
