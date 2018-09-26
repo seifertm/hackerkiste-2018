@@ -159,15 +159,15 @@
         <p v-if="parentWindow">=> AVIF support expected to come</p>
       </slide>
       <slide>
-        <p>Searching for that bug that no one else managed to find</p>
+        <h4>"Searching for that bug that no one else managed to find"</h4>
         <div class="side-by-side">
           <figure>
             <img src="./assets/dog.gif">
-            <figcaption>GIF (780 KiB) (by uaiHebert on http://devopsreactions.tumblr.com)</figcaption>
+            <figcaption><a href="http://devopsreactions.tumblr.com">Original GIF</a> (780 KiB)</figcaption>
           </figure>
           <figure>
             <video autoplay loop><source src="./assets/dog.mp4" type="video/mp4"></video>
-            <figcaption>MP4 (57 KiB)</figcaption>
+            <figcaption>MP4 Video (57 KiB)</figcaption>
           </figure>
         </div>
       </slide>
@@ -292,6 +292,10 @@ export default {
 
 .eg-slideshow h1 {
   font-size: 2.5em;
+}
+
+h4 {
+  text-align: center;
 }
 
 .eg-slide-content {
