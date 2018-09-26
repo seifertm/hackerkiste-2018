@@ -94,19 +94,6 @@
         <h1>Choosing a format</h1>
       </slide>
       <slide>
-        <figure>
-          <img src="./assets/webp vs jpeg - kodak.png">
-          <figcaption>Perfomance of lossy WebP (blue) vs JPEG (red) compression <a href="https://developers.google.com/speed/webp/docs/webp_study">(WebP Compression Study)</a></figcaption>
-        </figure>
-        <p>WebP produces images that are 25&hairsp;% – 34&hairsp;% smaller</p>
-      </slide>
-      <slide>
-        <figure>
-          <img src="./assets/2018-09-20 caniuse.com - webp-1280.jpeg">
-          <figcaption>WebP browser support</figcaption>
-        </figure>
-      </slide>
-      <slide>
         <h2>JPEG XR</h2>
         <p>Generally better performance than JPEG <sup>1</sup></p>
         <footer>
@@ -135,6 +122,19 @@
         <figure>
           <img src="./assets/2018-09-26 caniuse.com - jpeg2000-1280.jpeg">
           <figcaption>JPEG 2000 browser support</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <img src="./assets/webp vs jpeg - kodak.png">
+          <figcaption>Perfomance of lossy WebP (blue) vs JPEG (red) compression <a href="https://developers.google.com/speed/webp/docs/webp_study">(WebP Compression Study)</a></figcaption>
+        </figure>
+        <p>WebP produces images that are 25&hairsp;% – 34&hairsp;% smaller</p>
+      </slide>
+      <slide>
+        <figure>
+          <img src="./assets/2018-09-20 caniuse.com - webp-1280.jpeg">
+          <figcaption>WebP browser support</figcaption>
         </figure>
       </slide>
       <slide>
