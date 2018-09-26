@@ -71,7 +71,7 @@
         </figure>
       </slide>
       <slide>
-        <p>Numerous metrics to assess image similarity:</p>
+        <h2>Image quality metrics</h2>
         <ul>
           <li>Structural similarity (SSIM)</li>
           <li>Peak Signal-to-Noise Ratio (PSNRHVS-M)</li>
@@ -80,7 +80,7 @@
         </ul>
       </slide>
       <slide>
-        <p>Encoding images based on a target metric</p>
+        <h2>Image encoders targeting a specific metric</h2>
         <ul>
           <li><a href="https://github.com/technopagan/cjpeg-dssim">cjpeg-dssim</a> (SSIM)</li>
           <li><a href="https://github.com/mozilla/mozjpeg">Mozjpeg</a> (PSNRHVS-M)</li>
@@ -122,6 +122,7 @@
         </figure>
       </slide>
       <slide>
+        <h2>WebP</h2>
         <figure>
           <img src="./assets/webp vs jpeg - kodak.png">
           <figcaption>Perfomance of lossy WebP (blue) vs JPEG (red) compression <a href="https://developers.google.com/speed/webp/docs/webp_study">(WebP Compression Study)</a></figcaption>
@@ -209,23 +210,36 @@
       </slide>
       <slide>
         <h1>Increasing perceived performance</h1>
-        <p>Create low-quality images from the actual image (e.g. by blurring)</p>
       </slide>
       <slide>
+        <h2>Skeleton screens</h2>
         <figure>
           <img src="./assets/skeleton-screen-1280.jpeg">
-          <figcaption>Skeleton screen (from <a href="https://css-tricks.com/building-skeleton-screens-css-custom-properties/">CSS Tricks</a>)</figcaption>
+          <figcaption><a href="https://css-tricks.com/building-skeleton-screens-css-custom-properties/">Skeleton screen</a> using grey areas for objects that are not loaded yet</figcaption>
         </figure>
       </slide>
       <slide :steps=2>
-        <p>Create SVG placeholders (e.g. using <a href="https://github.com/technopagan/sqip">SQIP</a>)</p>
+        <h2>Low-quality image placeholders</h2>
+        <div class="side-by-side">
+          <figure>
+            <img src="./assets/mona-lisa-640.jpeg">
+            <figcaption><a href="https://github.com/technopagan/sqip">Reference image</a></figcaption>
+          </figure>
+          <figure v-if="step >= 2">
+            <img style="width: inherit;" src="./assets/mona-lisa-lqip.jpg">
+            <figcaption>Low-resolution placeholder</figcaption>
+          </figure>
+        </div>
+      </slide>
+      <slide :steps=2>
+        <h2>Create SVG placeholders (e.g. using <a href="https://github.com/technopagan/sqip">SQIP</a>)</h2>
         <div class="side-by-side">
           <figure>
             <img src="./assets/mona lisa-1280.jpeg">
             <figcaption><a href="https://github.com/fogleman/primitive">Reference image</a></figcaption>
           </figure>
           <figure v-if="step >= 2">
-            <video autoplay loop><source src="./assets/primitive.mp4"></video>
+            <video autoplay><source src="./assets/primitive.mp4"></video>
             <figcaption>Approximated SVG using <a href="https://github.com/fogleman/primitive">Primitive</a></figcaption>
           </figure>
         </div>
@@ -307,7 +321,7 @@ export default {
 }
 
 .eg-slideshow h2 {
-  font-size: 2em;
+  font-size: 2em !important;
 }
 
 .eg-slideshow .eg-code-block {
@@ -318,8 +332,17 @@ h4 {
   text-align: center;
 }
 
+.eg-slideshow p, .eg-slideshow ul, .eg-slideshow ol {
+  margin-left: 4em;
+}
+
+.eg-slideshow footer {
+  position: absolute;
+  bottom: 1em;
+  font-size: 0.75em;
+}
+
 .eg-slide-content {
-  position: relative;
   max-height: 100%;
   margin: 1em auto;
 }
