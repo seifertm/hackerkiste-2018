@@ -159,24 +159,25 @@
         </figure>
       </slide>
       <slide>
+        <h2>High Efficiency Image Format (HEIF) and Better Portable Graphics (BPG)</h2>
+        <p>Based on HEVC intra-frame coding</p>
+        <p>Produces files that are <a href="https://nokiatech.github.io/heif/technical.html#table-4">approx. 28% smaller</a> than JPEG and generally <a href="https://web.archive.org/web/20160928024026/http://people.mozilla.org/~josh/lossy_compressed_image_study_july_2014/">smaller than WebP</a></p>
+        <p>Patent encumbered</p>
+      </slide>
+      <slide>
         <figure>
           <img src="./assets/2018-09-06 caniuse.com - heif.png">
-          <figcaption>HEIF</figcaption>
-          <p>HEIF Produces files that are <a href="https://nokiatech.github.io/heif/technical.html#table-4">approx. 28% smaller</a> than JPEG and generally <a href="https://web.archive.org/web/20160928024026/http://people.mozilla.org/~josh/lossy_compressed_image_study_july_2014/">smaller than WebP</a></p>
+          <figcaption>HEIF browser support</figcaption>
         </figure>
       </slide>
       <slide>
-        <h4>Other formats</h4>
-        <p>BPG (Segfault)</p>
-        <p>AVIF (Spec not finalized) <sup>1</sup></p>
+        <h2>AV1 Image Format (AVIF)</h2>
+        <p>Based on AV1 intra-frame coding</p>
+        <p>Same container format as HEIF</p>
+        <p><a href="https://aomediacodec.github.io/av1-avif/">Specification</a> not finalized</p>
         <p v-if="parentWindow">Designed to be conformant to HEIF</p>
         <p v-if="parentWindow">AV1 is supported in Chrome >=70 and Firefox Nightly.</p>
         <p v-if="parentWindow">=> AVIF support expected to come</p>
-        <footer>
-          <ol>
-            <li><a href="https://aomediacodec.github.io/av1-avif/">Specification</a>, <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1443863">Firefox support</a></li>
-          </ol>
-        </footer>
       </slide>
       <slide>
         <p>Searching for that bug that no one else managed to find</p>
