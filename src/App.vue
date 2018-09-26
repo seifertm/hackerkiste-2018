@@ -2,6 +2,11 @@
   <div id="app">
     <div class="eg-slideshow">
       <slide>
+        <h1>Jetzt aber schnell!</h1>
+        <h2>Bildoptimierung für das Web</h2>
+        <small>Michael Seifert - 2018-09-28</small>
+      </slide>
+      <slide>
         <h1>Why does image optimization matter?</h1>
       </slide>
       <slide>
@@ -285,6 +290,11 @@ export default {
 }
 
 .eg-slide-content figure figcaption {
+  text-align: center;
+}
+
+small {
+  display: block;
   text-align: center;
 }
 
