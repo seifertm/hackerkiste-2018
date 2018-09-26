@@ -91,27 +91,6 @@
         </ul>
       </slide>
       <slide>
-        <h1>Measure, don't guess!</h1>
-      </slide>
-      <slide>
-        <figure>
-          <img src="./assets/2018-09-18 webpagetest.org-1280.jpeg">
-          <figcaption><a href="https://www.webpagetest.org/">webpagetest.org</a></figcaption>
-        </figure>
-      </slide>
-      <slide>
-        <figure>
-          <img src="./assets/2018-09-18 PageSpeed Insights-1280.jpeg">
-          <figcaption><a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a></figcaption>
-        </figure>
-      </slide>
-      <slide>
-        <figure>
-          <img src="./assets/2018-09-18 - Lighthouse-1280.jpeg">
-          <figcaption><a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a></figcaption>
-        </figure>
-      </slide>
-      <slide>
         <h1>Choosing a format</h1>
       </slide>
       <slide>
@@ -232,6 +211,27 @@
             <figcaption>Approximated SVG (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
           </figure>
         </div>
+      </slide>
+      <slide>
+        <h1>Measure, don't guess!</h1>
+      </slide>
+      <slide>
+        <figure>
+          <img src="./assets/2018-09-18 webpagetest.org-1280.jpeg">
+          <figcaption><a href="https://www.webpagetest.org/">webpagetest.org</a></figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <img src="./assets/2018-09-18 PageSpeed Insights-1280.jpeg">
+          <figcaption><a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a></figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <figure>
+          <img src="./assets/2018-09-18 - Lighthouse-1280.jpeg">
+          <figcaption><a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a></figcaption>
+        </figure>
       </slide>
       <slide>
         <h1>Thank you!</h1>
