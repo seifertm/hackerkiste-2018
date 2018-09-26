@@ -158,14 +158,14 @@
         <p v-if="parentWindow">AV1 is supported in Chrome >=70 and Firefox Nightly.</p>
         <p v-if="parentWindow">=> AVIF support expected to come</p>
       </slide>
-      <slide>
+      <slide :steps=2>
         <h4>"Searching for that bug that no one else managed to find"</h4>
         <div class="side-by-side">
           <figure>
             <img src="./assets/dog.gif">
             <figcaption><a href="http://devopsreactions.tumblr.com">Original GIF</a> (780 KiB)</figcaption>
           </figure>
-          <figure>
+          <figure v-if="step >= 2">
             <video autoplay loop><source src="./assets/dog.mp4" type="video/mp4"></video>
             <figcaption>MP4 Video (57 KiB)</figcaption>
           </figure>
@@ -177,14 +177,14 @@
           <figcaption>H.264 in MP4 container browser support</figcaption>
         </figure>
       </slide>
-      <slide>
+      <slide :steps=2>
         <div class="side-by-side">
           <figure>
-            <img style="background-color: black; padding: 1em;" src="./assets/logo-hackerkiste.svg">
+            <img style="background-color: black; padding: 1em; margin: 0 1em;" src="./assets/logo-hackerkiste.svg">
             <figcaption><a href="https://2018.hackerkiste.de">Original SVG</a> (5.4 KiB)</figcaption>
           </figure>
-          <figure>
-            <img style="background-color: black; padding: 1em;" src="./assets/logo-hackerkiste-svgo.svg">
+          <figure v-if="step >= 2">
+            <img style="background-color: black; padding: 1em; margin: 0 1em;" src="./assets/logo-hackerkiste-svgo.svg">
             <figcaption>SVG minified by <a href="https://github.com/svg/svgo">SVGO</a> (4.1 KiB; 24.5% smaller)</figcaption>
           </figure>
         </div>
@@ -211,16 +211,16 @@
           <figcaption>Skeleton screen (from <a href="https://css-tricks.com/building-skeleton-screens-css-custom-properties/">CSS Tricks</a>)</figcaption>
         </figure>
       </slide>
-      <slide>
+      <slide :steps=2>
         <p>Create SVG placeholders (e.g. using <a href="https://github.com/technopagan/sqip">SQIP</a>)</p>
         <div class="side-by-side">
           <figure>
             <img src="./assets/mona lisa-1280.jpeg">
-            <figcaption>Reference image (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
+            <figcaption><a href="https://github.com/fogleman/primitive">Reference image</a></figcaption>
           </figure>
-          <figure>
+          <figure v-if="step >= 2">
             <video autoplay loop><source src="./assets/primitive.mp4"></video>
-            <figcaption>Approximated SVG (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
+            <figcaption>Approximated SVG using <a href="https://github.com/fogleman/primitive">Primitive</a></figcaption>
           </figure>
         </div>
       </slide>
@@ -315,8 +315,9 @@ h4 {
 }
 
 .eg-slide-content .side-by-side > * {
-  flex: 1;
-  margin: 0 1em;
+  flex: initial;
+  margin: 0;
+  width: 50%;
 }
 
 .eg-slide-content figure {
