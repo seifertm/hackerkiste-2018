@@ -7,12 +7,9 @@
         <small>Michael Seifert - 2018-09-28</small>
       </slide>
       <slide>
-        <h1>Why does image optimization matter?</h1>
-      </slide>
-      <slide>
         <figure>
           <bar-chart width=800 height=400 :data="pageSize" :font-size=28.76></bar-chart>
-          <figcaption>Page weight distribution on 2018-08-15 (data from <a href="https://www.httparchive.org/reports/page-weight">httparchive.org</a></figcaption>
+          <figcaption><a href="https://www.httparchive.org/reports/page-weight">Page weight distribution on 2018-08-15</a></figcaption>
         </figure>
       </slide>
       <slide>
