@@ -172,6 +172,12 @@
         </div>
       </slide>
       <slide>
+        <figure>
+          <img src="./assets/2018-09-26 caniuse.com - mp4-1280.jpeg">
+          <figcaption>H.264 in MP4 container browser support</figcaption>
+        </figure>
+      </slide>
+      <slide>
         <div class="side-by-side">
           <figure>
             <img style="background-color: black; padding: 1em;" src="./assets/logo-hackerkiste.svg">
