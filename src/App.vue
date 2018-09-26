@@ -172,10 +172,16 @@
         </div>
       </slide>
       <slide>
-        <figure>
-          <img src="./assets/logo-hackerkiste-svgo.svg">
-          <figcaption>SVG minified by <a href="https://github.com/svg/svgo">SVGO</a> (5.4 KiB -> 4.1 KiB 24.5%) (from https://2018.hackerkiste.de)</figcaption>
-        </figure>
+        <div class="side-by-side">
+          <figure>
+            <img style="background-color: black; padding: 1em;" src="./assets/logo-hackerkiste.svg">
+            <figcaption><a href="https://2018.hackerkiste.de">Original SVG</a> (5.4 KiB)</figcaption>
+          </figure>
+          <figure>
+            <img style="background-color: black; padding: 1em;" src="./assets/logo-hackerkiste-svgo.svg">
+            <figcaption>SVG minified by <a href="https://github.com/svg/svgo">SVGO</a> (4.1 KiB; 24.5% smaller)</figcaption>
+          </figure>
+        </div>
       </slide>
       <slide>
         <h1>Lazy loading of offscreen content</h1>
