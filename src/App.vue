@@ -128,9 +128,34 @@
         </figure>
       </slide>
       <slide>
+        <h2>JPEG XR</h2>
+        <p>Generally better performance than JPEG <sup>1</sup></p>
+        <footer>
+          <ol>
+            <li>Simone et al. (2009) - Subjective evaluation of JPEG XR image compression</li>
+          </ol>
+        </footer>
+      </slide>
+      <slide>
         <figure>
-          <img src="./assets/2018-09-18 caniuse.com - jpeg xr.png">
-          <figcaption>JPEG XR</figcaption>
+          <img src="./assets/2018-09-26 caniuse.com - jpeg xr-1280.jpeg">
+          <figcaption>JPEG XR browser support</figcaption>
+        </figure>
+      </slide>
+      <slide>
+        <h2>JPEG 2000</h2>
+        <p>Better compression performance than JPEG and JPEG XR <sup>1</sup></p>
+        <p>Patent encumbered</p>
+        <footer>
+          <ol>
+            <li>Simone et al. (2009) - Subjective evaluation of JPEG XR image compression</li>
+          </ol>
+        </footer>
+      </slide>
+      <slide>
+        <figure>
+          <img src="./assets/2018-09-26 caniuse.com - jpeg2000-1280.jpeg">
+          <figcaption>JPEG 2000 browser support</figcaption>
         </figure>
       </slide>
       <slide>
