@@ -11,12 +11,14 @@
         </figure>
       </slide>
       <slide>
-        <p>Big pages are slower to load</p>
-        <p>Users are more likely to bounce on slower pages <sup>1, 2</sup></p>
+        <figure>
+          <img src="./assets/mobile-page-speed-bounce-1280.jpeg">
+          <figcaption><a href="https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/">Daniel An (2018) – Find out how you stack up to new industry benchmarks for mobile page speed</a></figcaption>
+        </figure>
         <p v-if="parentWindow">Google experiment: increase to 30 search results => 0.5s longer load time => 20% decreased traffic</p>
+        <p>Users are more likely to bounce on slower pages <sup>1, 2</sup></p>
         <footer>
           <ol>
-            <li><a href="https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/">Daniel An (2018) – Find out how you stack up to new industry benchmarks for mobile page speed</a></li>
             <li><a href="https://blog.gigaspaces.com/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/">Nati Shalom (2008) - Amazon found every 100ms of latency cost them 1% in sales</a></li>
           </ol>
         </footer>
