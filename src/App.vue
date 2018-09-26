@@ -195,7 +195,7 @@
             <figcaption>Reference image (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
           </figure>
           <figure>
-            <img src="./assets/primitive.gif">
+            <video autoplay loop><source src="./assets/primitive.mp4"></video>
             <figcaption>Approximated SVG (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
           </figure>
         </div>
