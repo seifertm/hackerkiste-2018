@@ -88,19 +88,19 @@
       </slide>
       <slide>
         <figure>
-          <img src="./assets/2018-09-18 webpagetest.org.png">
+          <img src="./assets/2018-09-18 webpagetest.org-1280.jpeg">
           <figcaption><a href="https://www.webpagetest.org/">webpagetest.org</a></figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
-          <img src="./assets/2018-09-18 PageSpeed Insights.png">
+          <img src="./assets/2018-09-18 PageSpeed Insights-1280.jpeg">
           <figcaption><a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights</a></figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
-          <img src="./assets/2018-09-18 - Lighthouse.png">
+          <img src="./assets/2018-09-18 - Lighthouse-1280.jpeg">
           <figcaption><a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a></figcaption>
         </figure>
       </slide>
@@ -116,7 +116,7 @@
       </slide>
       <slide>
         <figure>
-          <img src="./assets/2018-09-20 caniuse.com - webp.png">
+          <img src="./assets/2018-09-20 caniuse.com - webp-1280.jpeg">
           <figcaption>WebP browser support</figcaption>
         </figure>
       </slide>
@@ -170,7 +170,7 @@
       </slide>
       <slide>
         <figure>
-          <img src="./assets/above-the-fold.png">
+          <img src="./assets/above-the-fold-1280.jpeg">
           <figcaption>Above and below the fold content (from the <a href="http://www.newzapp.co.uk/blog/email-marketing/the-fold-and-email-marketing/">newzapp.co.uk</a>)</figcaption>
         </figure>
       </slide>
@@ -183,7 +183,7 @@
       </slide>
       <slide>
         <figure>
-          <img src="./assets/skeleton-screen.png">
+          <img src="./assets/skeleton-screen-1280.jpeg">
           <figcaption>Skeleton screen (from <a href="https://css-tricks.com/building-skeleton-screens-css-custom-properties/">CSS Tricks</a>)</figcaption>
         </figure>
       </slide>
@@ -191,7 +191,7 @@
         <p>Create SVG placeholders (e.g. using <a href="https://github.com/technopagan/sqip">SQIP</a>)</p>
         <div class="side-by-side">
           <figure>
-            <img src="./assets/mona lisa.png">
+            <img src="./assets/mona lisa-1280.jpeg">
             <figcaption>Reference image (from the <a href="https://github.com/fogleman/primitive">Primitive project page</a>)</figcaption>
           </figure>
           <figure>
@@ -277,7 +277,6 @@ export default {
 
 .eg-slide-content figure :not(figcaption) {
   max-width: 100%;
-  width: fit-content;
   height: auto;
   margin: 0 auto;
   display: block;
