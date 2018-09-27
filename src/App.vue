@@ -8,7 +8,7 @@
       </slide>
       <slide>
         <figure>
-          <bar-chart width=800 height=400 :data="pageSize" :font-size=28.76></bar-chart>
+          <bar-chart :width=1280 :height=400 :data="pageSize" :font-size=28.76></bar-chart>
           <figcaption><a href="https://www.httparchive.org/reports/page-weight">Page weight distribution on 2018-08-15</a></figcaption>
         </figure>
       </slide>
@@ -387,7 +387,7 @@ h4 {
   margin: 0;
 }
 
-.eg-slide-content figure img, .eg-slide-content figure video {
+.eg-slide-content figure img, .eg-slide-content figure video, .eg-slide-content figure svg {
   max-width: 100%;
   height: auto;
   margin: 0 auto;

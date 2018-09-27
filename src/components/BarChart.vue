@@ -1,5 +1,5 @@
 <template>
-  <svg width="100%" :height="height">
+  <svg :width="width" :height="height">
     <svg v-for="(point, index) in data" :key="index" :width="100*barWidth + '%'" :x="index*(barWidth + gapWidth)*100 + '%'">
       <text x="50%" :y="marginTop - fontSize/2 + plotAreaHeight - plotAreaHeight*(point.value/maxValue)" alignment-baseline="middle" text-anchor="middle">{{point.value}}</text>
       <svg :y="marginTop" :height="plotAreaHeight">
