@@ -31,43 +31,43 @@
       <slide>
         <figure>
           <img src="./assets/antilope-1280x720-q100.jpeg">
-          <figcaption>JPEG with quality 100 (949 KiB)</figcaption>
+          <figcaption>JPEG with quality 100 (949&thinsp;KiB)</figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
           <img src="./assets/antilope-1280x720-q85.jpeg">
-          <figcaption>JPEG with quality 85 (161 KiB)</figcaption>
+          <figcaption>JPEG with quality 85 (161&thinsp;KiB)</figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
           <img src="./assets/antilope-1280x720-q70.jpeg">
-          <figcaption>JPEG with quality 70 (107 KiB)</figcaption>
+          <figcaption>JPEG with quality 70 (107&thinsp;KiB)</figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
           <img src="./assets/antilope-1280x720-q55.jpeg">
-          <figcaption>JPEG with quality 55 (82 KiB)</figcaption>
+          <figcaption>JPEG with quality 55 (82&thinsp;KiB)</figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
           <img src="./assets/antilope-1280x720-q40.jpeg">
-          <figcaption>JPEG with quality 40 (65 KiB)</figcaption>
+          <figcaption>JPEG with quality 40 (65&thinsp;KiB)</figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
           <img src="./assets/antilope-1280x720-q25.jpeg">
-          <figcaption>JPEG with quality 25 (46 KiB)</figcaption>
+          <figcaption>JPEG with quality 25 (46&thinsp;KiB)</figcaption>
         </figure>
       </slide>
       <slide>
         <figure>
           <img src="./assets/antilope-1280x720-q10.jpeg">
-          <figcaption>JPEG with quality 10 (22 KiB)</figcaption>
+          <figcaption>JPEG with quality 10 (22&thinsp;KiB)</figcaption>
         </figure>
       </slide>
       <slide>
@@ -140,14 +140,13 @@
         </figure>
       </slide>
       <slide>
-        <h2>High Efficiency Image Format (HEIF) and Better Portable Graphics (BPG)</h2>
+        <h2>High Efficiency Image Format (HEIF), <br/>Better Portable Graphics (BPG)</h2>
         <p>Based on HEVC intra-frame coding</p>
         <p>Produces files that are <a href="https://nokiatech.github.io/heif/technical.html#table-4">approx. 28% smaller</a> than JPEG and generally <a href="https://web.archive.org/web/20160928024026/http://people.mozilla.org/~josh/lossy_compressed_image_study_july_2014/">smaller than WebP</a></p>
-        <p>Patent encumbered</p>
       </slide>
       <slide>
         <figure>
-          <img src="./assets/2018-09-06 caniuse.com - heif.png">
+          <img src="./assets/2018-09-27 caniuse.com - heif-1280.jpeg">
           <figcaption>HEIF browser support</figcaption>
         </figure>
       </slide>
@@ -162,21 +161,21 @@
       </slide>
       <slide :steps=2>
         <h2>Replace GIFs</h2>
-        <h4>"Searching for that bug that no one else managed to find"</h4>
+        <h4><q>Searching for that bug that no one else managed to find</q></h4>
         <div class="side-by-side">
           <figure>
             <img src="./assets/dog.gif">
-            <figcaption><a href="http://devopsreactions.tumblr.com">Original GIF</a> (780 KiB)</figcaption>
+            <figcaption><a href="http://devopsreactions.tumblr.com">Original GIF</a> (780&thinsp;KiB)</figcaption>
           </figure>
           <figure v-if="step >= 2">
             <video autoplay loop><source src="./assets/dog.mp4" type="video/mp4"></video>
-            <figcaption>MP4 Video (57 KiB)</figcaption>
+            <figcaption>MP4 Video (57&thinsp;KiB)</figcaption>
           </figure>
         </div>
       </slide>
       <slide>
         <figure>
-          <img src="./assets/2018-09-26 caniuse.com - mp4-1280.jpeg">
+          <img src="./assets/2018-09-27 caniuse.com - mp4-1280.jpeg">
           <figcaption>H.264 in MP4 container browser support</figcaption>
         </figure>
       </slide>
@@ -185,11 +184,11 @@
         <div class="side-by-side">
           <figure>
             <img style="background-color: black; padding: 1em; margin: 0 1em;" src="./assets/logo-hackerkiste.svg">
-            <figcaption><a href="https://2018.hackerkiste.de">Original SVG</a> (5.4 KiB)</figcaption>
+            <figcaption><a href="https://2018.hackerkiste.de">Original SVG</a> (5.4&thinsp;KiB)</figcaption>
           </figure>
           <figure v-if="step >= 2">
             <img style="background-color: black; padding: 1em; margin: 0 1em;" src="./assets/logo-hackerkiste-svgo.svg">
-            <figcaption>SVG minified by <a href="https://github.com/svg/svgo">SVGO</a> (4.1 KiB; 24.5% smaller)</figcaption>
+            <figcaption>SVG minified by <a href="https://github.com/svg/svgo">SVGO</a> (4.1&thinsp;KiB; 24.5&hairsp;% smaller)</figcaption>
           </figure>
         </div>
       </slide>
@@ -205,8 +204,8 @@
       </slide>
       <slide>
         <figure>
-          <img src="./assets/above-the-fold-1280.jpeg">
-          <figcaption>Above and below the fold content (from the <a href="http://www.newzapp.co.uk/blog/email-marketing/the-fold-and-email-marketing/">newzapp.co.uk</a>)</figcaption>
+          <a href="http://www.newzapp.co.uk/blog/email-marketing/the-fold-and-email-marketing/"><img src="./assets/above-the-fold-1280.jpeg"></a>
+          <figcaption>Above and below the fold content</figcaption>
         </figure>
       </slide>
       <slide>
@@ -227,16 +226,29 @@
         <div class="side-by-side">
           <figure>
             <img src="./assets/mona-lisa-640.jpeg">
-            <figcaption><a href="https://github.com/technopagan/sqip">Reference image</a></figcaption>
+            <figcaption><a href="https://github.com/technopagan/sqip">Reference image (54&thinsp;KiB)</a></figcaption>
           </figure>
           <figure v-if="step >= 2">
             <img style="width: inherit;" src="./assets/mona-lisa-lqip.jpg">
-            <figcaption>Low-resolution placeholder</figcaption>
+            <figcaption>Low-resolution placeholder (442&thinsp;B)</figcaption>
           </figure>
         </div>
       </slide>
       <slide :steps=2>
-        <h2>Create SVG placeholders (e.g. using <a href="https://github.com/technopagan/sqip">SQIP</a>)</h2>
+        <h2>SVG image placeholders</h2>
+        <div class="side-by-side">
+          <figure>
+            <img src="./assets/mona-lisa-640.jpeg">
+            <figcaption><a href="https://github.com/technopagan/sqip">Reference image (54&thinsp;KiB)</a></figcaption>
+          </figure>
+          <figure v-if="step >= 2">
+            <img style="width: inherit;" src="./assets/mona-lisa-640.svg">
+            <figcaption>SVG placeholder (936&thinsp;B, 440&thinsp;B w/ Brotli)</figcaption>
+          </figure>
+        </div>
+      </slide>
+      <slide :steps=2>
+        <h2>Creating SVG placeholders using <a href="https://github.com/technopagan/sqip">SQIP</a></h2>
         <div class="side-by-side">
           <figure>
             <img src="./assets/mona lisa-1280.jpeg">
