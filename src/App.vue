@@ -125,12 +125,13 @@
         </figure>
       </slide>
       <slide>
-        <h2>WebP</h2>
         <figure>
-          <img src="./assets/webp vs jpeg - kodak.png">
-          <figcaption>Perfomance of lossy WebP (blue) vs JPEG (red) compression <a href="https://developers.google.com/speed/webp/docs/webp_study">(WebP Compression Study)</a></figcaption>
+          <a href="https://developers.google.com/speed/webp/"><img src="./assets/webplogo-640.jpeg"></a>
         </figure>
-        <p>WebP produces images that are 25&hairsp;% – 34&hairsp;% smaller</p>
+        <figure>
+          <a href="https://developers.google.com/speed/webp/docs/webp_study"><img src="./assets/webp vs jpeg - kodak.png"></a>
+          <figcaption>Perfomance comparison of lossy WebP (blue) vs lossy JPEG (red) compression.<br/> WebP produces images that are 25&hairsp;% – 34&hairsp;% smaller</figcaption>
+        </figure>
       </slide>
       <slide>
         <figure>
