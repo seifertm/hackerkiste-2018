@@ -185,6 +185,8 @@
           <figcaption>H.264 in MP4 container browser support</figcaption>
         </figure>
       </slide>
+      <slide>
+      </slide>
       <slide :steps=2>
         <h2>Optimize SVGs</h2>
         <div class="side-by-side">
@@ -286,6 +288,9 @@
           <img src="./assets/2018-09-18 - Lighthouse-1280.jpeg">
           <figcaption><a href="https://developers.google.com/web/tools/lighthouse/">Lighthouse</a></figcaption>
         </figure>
+      </slide>
+      <slide>
+        <a href="https://www.ameto.de"><img class="fullscreen" src="./assets/ameto.jpeg"></a>
       </slide>
       <slide>
         <h1>Thank you!</h1>
@@ -407,6 +412,13 @@ h4 {
 small {
   display: block;
   text-align: center;
+}
+
+.eg-slide-content img.fullscreen {
+  width: 100%;
+  height: 100%;
+  max-width:100%;
+  margin: -1em 0;
 }
 
 </style>
