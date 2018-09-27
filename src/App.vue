@@ -91,8 +91,10 @@
         <h1>Choosing a raster format</h1>
       </slide>
       <slide>
-        <h2>JPEG XR</h2>
-        <p>Generally better performance than JPEG <sup>1</sup></p>
+        <figure>
+          <a href="https://jpeg.org/jpegxr/"><img style="max-height: 600px;" src="./assets/jpegxr-logo-svgo.svg"></a>
+          <figcaption>Generally performs better than JPEG <sup>1</sup></figcaption>
+        </figure>
         <footer>
           <ol>
             <li>Simone et al. (2009) - Subjective evaluation of JPEG XR image compression</li>
@@ -106,9 +108,10 @@
         </figure>
       </slide>
       <slide>
-        <h2>JPEG 2000</h2>
-        <p>Better compression performance than JPEG and JPEG XR <sup>1</sup></p>
-        <p>Patent encumbered</p>
+        <figure>
+          <a href="https://jpeg.org/jpeg2000/index.html"><img style="max-height: 600px;" src="./assets/jpeg2000-logo-svgo.svg"></a>
+          <figcaption>Better compression performance than JPEG and JPEG XR <sup>1</sup></figcaption>
+        </figure>
         <footer>
           <ol>
             <li>Simone et al. (2009) - Subjective evaluation of JPEG XR image compression</li>
@@ -371,7 +374,7 @@ h4 {
   margin: 0;
 }
 
-.eg-slide-content figure :not(figcaption) {
+.eg-slide-content figure img, .eg-slide-content figure video {
   max-width: 100%;
   height: auto;
   margin: 0 auto;
