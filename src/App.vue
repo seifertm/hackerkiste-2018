@@ -186,6 +186,10 @@
         </figure>
       </slide>
       <slide>
+        <h2>Vector formats (SVG)</h2>
+        <p>Resolution scales indefinitely</p>
+        <p>Supports animation and interactivity</p>
+        <p>Use whenever possible!</p>
       </slide>
       <slide :steps=2>
         <h2>Optimize SVGs</h2>
@@ -208,19 +212,22 @@
         </eg-code-block>
       </slide>
       <slide>
-        <h1>Lazy loading of offscreen content</h1>
-      </slide>
-      <slide>
         <figure>
           <a href="http://www.newzapp.co.uk/blog/email-marketing/the-fold-and-email-marketing/"><img src="./assets/above-the-fold-1280.jpeg"></a>
           <figcaption>Above and below the fold content</figcaption>
         </figure>
       </slide>
-      <slide>
-        <p>Use <a href="https://github.com/aFarkas/lazysizes">lazySizes</a> or a custom built solution based on the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"> Intersection Observer API</a></p>
+      <slide :steps=2>
+        <h1>Lazy loading with <a href="https://github.com/aFarkas/lazysizes">lazySizes</a></h1>
+        <eg-code-block lang="html">&lt;img data-src="image.jpg" class="lazyload" /&gt;</eg-code-block>
+        <eg-code-block lang="html" v-if="step >= 2">&lt;img data-srcset="mobile.jpg   480w,
+                    tablet.jpg   720w,
+                    desktop.jpg 1080w"
+       class="lazyload"&gt;
+        </eg-code-block>
       </slide>
       <slide>
-        <h1>Increasing perceived performance</h1>
+        <h1>Perceived performance</h1>
       </slide>
       <slide>
         <h2>Skeleton screens</h2>
@@ -377,6 +384,7 @@ export default {
 
 .eg-slideshow .eg-code-block {
   font-size: 1em !important;
+  margin-left: 4em;
 }
 
 h4 {
