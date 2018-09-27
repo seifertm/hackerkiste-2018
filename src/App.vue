@@ -245,7 +245,7 @@
         </div>
       </slide>
       <slide>
-        <h1>Measure, don't guess!</h1>
+        <h1>Measure, don’t guess!</h1>
       </slide>
       <slide>
         <figure>
@@ -301,8 +301,17 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: "Lato";
+  src: url('./assets/fonts/LatoLatin-Regular.eot');
+  src: url('./assets/fonts/LatoLatin-Regular.woff2') format('woff2')
+       url('./assets/fonts/LatoLatin-Regular.woff') format('woff')
+       url('./assets/fonts/LatoLatin-Regular.ttf') format('truetype');
+}
+
 .eg-slideshow {
   background-color: white !important;
+  font-family: "Lato", sans-serif;
 }
 
 @media (min-width: 1280px) {
