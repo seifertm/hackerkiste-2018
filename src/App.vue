@@ -159,8 +159,14 @@
         <p v-if="parentWindow">AV1 is supported in Chrome >=70 and Firefox Nightly.</p>
         <p v-if="parentWindow">=> AVIF support expected to come</p>
       </slide>
+      <slide :steps=4>
+        <h2>Which format should I use?</h2>
+        <p v-if="step >= 2">Use different raster formats for different browser clients</p>
+        <p v-if="step >= 3">Generally prefer newer over older formats, if supported</p>
+        <p v-if="step >= 4">AV1 is being broadly adopted in the industry. AVIF has a good chance to receive the same attention.</p>
+      </slide>
       <slide :steps=2>
-        <h2>Replace GIFs</h2>
+        <h2>Don't use GIFs</h2>
         <h4><q>Searching for that bug that no one else managed to find</q></h4>
         <div class="side-by-side">
           <figure>
