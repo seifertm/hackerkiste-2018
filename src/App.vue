@@ -295,6 +295,11 @@
       <slide>
         <h1>Thank you!</h1>
         <h1>Questions?</h1>
+        <div class="spread">
+          <span>Michael Seifert</span>
+          <a href="https://www.digitalernachschub.de">digitalernachschub.de</a>
+          <a href="https://www.ameto.de">ameto.de</a>
+        </div>
       </slide>
     </div>
   </div>
@@ -350,6 +355,16 @@ export default {
   .eg-slideshow .eg-slide .eg-slide-content {
     width: 1920px !important;
   }
+}
+
+.eg-slideshow a {
+  color: #0987D7;
+  text-decoration: inherit;
+}
+
+.eg-slideshow a:visited {
+  color: #0987D7;
+  text-decoration: inherit;
 }
 
 .eg-slideshow h1 {
@@ -419,6 +434,16 @@ small {
   height: 100%;
   max-width:100%;
   margin: -1em 0;
+}
+
+.spread {
+  margin: 3em 0;
+  display: flex;
+}
+
+.spread > * {
+  flex: 1;
+  text-align: center;
 }
 
 </style>
