@@ -8,12 +8,6 @@
       </slide>
       <slide>
         <figure>
-          <bar-chart :width=1280 :height=400 :data="pageSize" :font-size=28.76></bar-chart>
-          <figcaption><a href="https://www.httparchive.org/reports/page-weight">Page weight distribution on 2018-08-15</a></figcaption>
-        </figure>
-      </slide>
-      <slide>
-        <figure>
           <img src="./assets/mobile-page-speed-bounce-1280.jpeg">
           <figcaption><a href="https://www.thinkwithgoogle.com/marketing-resources/data-measurement/mobile-page-speed-new-industry-benchmarks/">Daniel An (2018) – Find out how you stack up to new industry benchmarks for mobile page speed</a></figcaption>
         </figure>
@@ -24,6 +18,12 @@
             <li><a href="https://blog.gigaspaces.com/amazon-found-every-100ms-of-latency-cost-them-1-in-sales/">Nati Shalom (2008) - Amazon found every 100ms of latency cost them 1% in sales</a></li>
           </ol>
         </footer>
+      </slide>
+      <slide>
+        <figure>
+          <bar-chart :width=1280 :height=400 :data="pageSize" :font-size=28.76></bar-chart>
+          <figcaption><a href="https://www.httparchive.org/reports/page-weight">Page weight distribution on 2018-08-15</a></figcaption>
+        </figure>
       </slide>
       <slide>
         <h1>Choosing the right quality</h1>
